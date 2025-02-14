@@ -2,7 +2,7 @@
 const slides = [
   { time: 0, image: "assets/image1.jpg", text: "Давным давно две расы правили Землей: ЛЮДИ и МОНСТРЫ." },
   { time: 7, image: "assets/image2.jpg", text: "Но однажды между ними вспыхнула война." },
-  { time: 13, image: "assets/mage3.jpg", text: "После продолжительной битвы людям удалось одержать победу." },
+  { time: 13, image: "assets/image3.jpg", text: "После продолжительной битвы людям удалось одержать победу." },
   { time: 24, image: "assets/image4.jpg", text: "И с помощью волшебного заклятия они заключили монстров под землю." },
   { time: 29, image: "assets/image5.jpg", text: "ГОРА ЭБОТТ, 201Х" },
   { time: 34, image: "assets/image6.jpg", text: "Легенды гласят, что те, кто взобрался на гору, никогда не возврашались." },
