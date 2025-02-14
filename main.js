@@ -64,15 +64,15 @@ const kissSound = document.getElementById('kiss-sound');
 
 // Arrays of photo file paths
 const hugPhotos = [
-  'hug1.jpg',
+  'assets/hug1.jpg',
   'images/hug2.jpg',
   'images/hug3.jpg',
   'images/hug4.jpg',
 ];
 
 const kissPhotos = [
-  'heart2.png',
-  'images/heart2.jpg',
+  'images/heart2.png',
+  'assets/heart2.jpg',
   'images/heart3.jpg',
   'images/heart5.jpg',
 ];
