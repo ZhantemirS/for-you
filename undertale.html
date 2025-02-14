@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="undertale.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Back Button (Image Button) -->
+<div id="back-button" onclick="window.location.href='index.html'">
+  <img src="assets/star.png" alt="Вернуться">
+</div>
+
+  <!-- Start Slideshow Image -->
+  <div id="start-container">
+    <img id="start-image" src="assets/act.jpg" alt="Start Slideshow">
+  </div>
+
+  <!-- Slideshow Container (Initially Hidden) -->
+  <div id="slideshow-container" class="hidden">
+    <!-- Image Box -->
+    <div id="image-box">
+      <img id="slide-image" src="" alt="Slide Image">
+    </div>
+    <!-- Text Below Image -->
+    <p id="slide-text"></p>
+  </div>
+
+  <!-- Audio Element -->
+  <audio id="background-music" src="assets/music.mp3"></audio>
+
+  <script src="undertale.js"></script>
+</body>
+</html>

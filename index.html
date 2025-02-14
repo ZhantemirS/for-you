@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Для тебя, Сонь.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Indie+Flower&family=Shadows+Into+Light&family=Amatic+SC&family=Courgette&family=Great+Vibes&family=Sacramento&family=Lobster&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>С 14 февраля, Сонь!!!</h1>
+  </header>
+  <main>
+    <section id="love-letter">
+      <h2>Дорогая Софья</h2>
+      <p>Когда говорят про 14 ферваля, большинство людей думают о дне Валентина. Но для меня этот день ассоциируется с тобой, Сонь. Да и если честно, каждый день - это твой день. Я так благодарен, что могу разговаривать с тобой каждый день, несмотря на это грёбанное расстояние..Я благодарен тебе, Сонь. Поэтому, я посвещаю эту страницу<u> тебе</u> . Надеюсь, что тебе она понравится. Тыкай куда угодно, находи секреты, если они есть..</p>
+    </section>
+    <section id="special-surprise">
+      <h2>ууу, кнопочка</h2>
+      <button class="popup-trigger" data-text="это правда!!" id="surprise-button">Нажми меня!!</button>
+      <p id="surprise-message" class="hidden">Ты - мой мир..!!! </p>
+    </section>
+  </main>
+
+  <section id="countdown">
+    <h2>Таймер до нашей встречи!! надеюсь, это правда..</h2>
+    <div id="timer">
+      <div><span id="days">00</span>Дней</div>
+      <div><span id="hours">00</span>Часов</div>
+      <div><span id="minutes">00</span>Минут</div>
+      <div><span id="seconds">00</span>Секунд</div>
+    </div>
+    <p>жду, стремлюсь к этому моменту</p>
+  </section>
+  
+  <main>
+    <section id="virtual-hug-kiss">
+      <h2>Обнимашки?</h2>
+      <button class="popup-trigger" data-text="теплые обнимашкиии" id="hug-button">обнимашки</button>
+      <button class="popup-trigger" data-text="моё!!" id="kiss-button">сердечко</button>
+      <div id="animation-container"></div>
+    </section>
+  </main>
+
+  <audio id="hug-sound" src="sounds/hug-sound.mp3"></audio>
+  <audio id="kiss-sound" src="sounds/kiss-sound.mp3"></audio>
+
+  <main>
+    <section id="compliments-wall">
+      <h2>Пару причин, почему ты лучше всех</h2>
+      <div id="compliments-container"></div>
+    </section>
+  </main>
+
+  <main>
+    <section id="promises">
+      <h2>Мои обещания тебе.</h2>
+      <div id="promises-container"></div>
+    </section>
+  </main>
+
+
+  <main>
+    <section id="proud">
+      <h2>Пару причин, почему я горжусь тобой!!</h2>
+      <div id="proud-container"></div>
+    </section>
+  </main>
+
+
+  <main>
+    <section id="things-list">
+      <h2>Нажми на кнопочку, узнаешь что я в тебе люблю!!!</h2>
+      <button class="popup-trigger" data-text="одно из большинства.." id="next-button">тык тык</button>
+      <p id="thing-text">Твоя улыбка.</p>
+    </section>
+  </main>
+
+
+
+<!-- Popup container -->
+<div class="popup" id="popup">
+  <span class="close-btn" id="close-popup">&times;</span>
+  <div class="popup-content" id="popup-content"></div>
+</div>
+  
+<!-- Undertale Save File Button -->
+<button id="undertale-save-button" onclick="window.location.href='undertale.html'">
+  <img src="assets/star.png" alt="Save File Icon" width="50" height="50"> <!-- Replace with your save file/star image -->
+</button>
+
+<audio id="background-music" src="assets/undertale.mp3" loop></audio>
+ <!-- Music Control Buttons -->
+ <div id="music-controls">
+  <!-- Play Button -->
+  <div class="music-button" id="play-button">
+    <img src="assets/star.png" alt="Play">
+    <p>Начать музыку</p>
+  </div>
+
+  <!-- Mute Button -->
+  <div class="music-button" id="mute-button">
+    <img src="assets/heart2.png" alt="Mute">
+    <p>Включить музыку (включи!!)</p>
+  </div>
+
+  <!-- Unmute Button -->
+  <div class="music-button" id="unmute-button">
+    <img src="assets/heart.png" alt="Unmute">
+    <p>Выключить (не нада)</p>
+  </div>
+</div>
+
+
+  <footer>
+    <p>С любовью, Жан.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
